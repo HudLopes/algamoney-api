@@ -1,6 +1,6 @@
 # algamoney
 
-### Front tools
+### - Front tools
 
 *Angular*
 
@@ -8,7 +8,7 @@
 
 
 
-### Back tools
+###  - Back tools
 
 *Maven*
 
