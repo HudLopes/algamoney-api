@@ -2,18 +2,18 @@
 
 ### Front tools
 
-*Angular
+*Angular*
 
-*Material
+*Material*
 
 
 
 ### Back tools
 
-*Maven
+*Maven*
 
-*Spring boot
+*Spring boot*
 
-*Jpa
+*Jpa*
 
-*Lombok
+*Lombok*
