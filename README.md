@@ -1,6 +1,6 @@
-# algamoney-api
+# algamoney
 
-- Front tools
+### Front tools
 
 Angular
 
@@ -8,7 +8,7 @@ Material
 
 
 
-- Back tools
+### Back tools
 
 Maven
 
