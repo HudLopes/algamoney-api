@@ -2,13 +2,19 @@ package com.algamoney.algamoney.iservice;
 
 import java.util.List;
 
-import com.algamoney.algamoney.model.User;
+import javax.validation.Valid;
+
+import org.springframework.http.ResponseEntity;
+
+import com.algamoney.algamoney.model.Usuario;
 
 public interface IUsuarioService {
 
-	User getOne(Long id);
+	List<Usuario> findAll();
 
-	List<User> findAll();
+	Usuario save(Usuario usuario);
 
-	User save(User user);
+	Usuario findOne(Long id);
+
 }
+ 

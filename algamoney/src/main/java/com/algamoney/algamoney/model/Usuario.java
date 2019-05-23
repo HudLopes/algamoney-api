@@ -1,5 +1,6 @@
 package com.algamoney.algamoney.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,17 +11,19 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "user")
-public class User {
-
+@Table(name = "usuario")
+public class Usuario {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Getter
 	@Setter
-	private long Id;
+	@Column(name = "id")
+	private long id;
 	
 	@Getter
 	@Setter
+	@Column(name = "nome")
 	private String nome;
-
+	
 }
